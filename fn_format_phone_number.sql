@@ -1,6 +1,20 @@
+-- Active: 1736807789276@@127.0.0.1@5432@postgres_db
+/*
+ Function creation by Darlington C. Nwemeh Version 1.2
+
+    This function formats a phone number for local as well as international numbers.
+    While utilizing this function, the input phone number can be in various formats, including: 
+    - 10-digit local numbers (e.g., 1234567890), 11-digit numbers starting with '1' (e.g., +12345678900),
+    and international numbers with country codes (e.g., +1234567899000).
+
+Copuright (c) 2021 Darlington C. Nwemeh
+All rights reserved.
+
+*/
 CREATE OR REPLACE FUNCTION format_phone_number(phone_number TEXT)
 RETURNS TEXT AS $$
 DECLARE
+-- initialize variables to hold cleaned number, country code, local number, and formatted number
     cleaned_number TEXT;
     country_code TEXT;
     local_number TEXT;
