@@ -7,7 +7,7 @@
     - 10-digit local numbers (e.g., 1234567890), 11-digit numbers starting with '1' (e.g., +12345678900),
     and international numbers with country codes (e.g., +1234567899000).
 
-Copuright (c) 2021 Darlington C. Nwemeh
+Copuright (c) 2025 Darlington C. Nwemeh
 All rights reserved.
 
 */
