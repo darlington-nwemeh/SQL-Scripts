@@ -35,10 +35,5 @@ SQL-Scripts/
 - Common ETL helper procedures
 - Cross-database compatible syntax variants (T-SQL, MySQL)
 
-## 📄 License
-Currently no license applied.  
-If you intend to use or modify these scripts for production or distribution, please contact the author.
-
----
 
 **Author:** [Darlington Nwemeh](https://github.com/darlington-nwemeh)
